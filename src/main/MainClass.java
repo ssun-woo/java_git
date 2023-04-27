@@ -16,6 +16,7 @@ public class MainClass {
 
 			switch (num) {
 			case 1:
+				System.out.println("로그인 완료");
 				break;
 			case 2:
 				break;
