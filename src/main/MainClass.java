@@ -2,9 +2,12 @@ package main;
 
 import java.util.Scanner;
 
+import edit.Edit;
+
 public class MainClass {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		Edit e = new Edit();
 
 		int num;
 		while (true) {
@@ -21,6 +24,7 @@ public class MainClass {
 			case 2:
 				break;
 			case 3:
+				e.edit();
 				break;
 			case 4:
 				break;
